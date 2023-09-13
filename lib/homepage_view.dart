@@ -7,7 +7,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text("this is homepage"),
+        child: Text("this is homepage view"),
       ),
     );
   }
