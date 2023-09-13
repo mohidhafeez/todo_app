@@ -52,7 +52,7 @@ class SignUpView extends StatelessWidget {
               children: [
                 SizedBox(
                   height: 45,
-                  width: 170,
+                  width: 160,
                   child: ElevatedButton(
                       onPressed: () {},
                       style: ElevatedButton.styleFrom(
@@ -65,7 +65,7 @@ class SignUpView extends StatelessWidget {
                 ),
                 SizedBox(
                     height: 45,
-                    width: 170,
+                    width: 160,
                     child: ElevatedButton(
                         onPressed: () {},
                         style: ElevatedButton.styleFrom(
