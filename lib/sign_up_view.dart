@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo_app/homepage_view.dart';
 
 class SignUpView extends StatelessWidget {
   const SignUpView({super.key});
@@ -37,7 +38,10 @@ class SignUpView extends StatelessWidget {
                 height: 45,
                 width: double.infinity,
                 child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => HomeView()));
+                    },
                     style: ElevatedButton.styleFrom(
                         backgroundColor: Color.fromARGB(246, 255, 183, 255)),
                     child: const Text(
