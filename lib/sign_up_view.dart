@@ -39,8 +39,10 @@ class SignUpView extends StatelessWidget {
                 width: double.infinity,
                 child: ElevatedButton(
                     onPressed: () {
-                      Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => HomeView()));
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const HomeView()));
                     },
                     style: ElevatedButton.styleFrom(
                         backgroundColor: Color.fromARGB(246, 255, 183, 255)),
